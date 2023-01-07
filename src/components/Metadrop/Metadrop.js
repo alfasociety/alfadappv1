@@ -7,6 +7,7 @@ import erc20_abi from '../../abis/erc20.json';
 import swap0x_abi from '../../abis/swap0x.json';
 
 import './Metadrop.css';
+// metadrop - alfa
 
 const Metadrop = (props) => {
   const initialSwapAmount = 1000000000000;
