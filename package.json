@@ -1,0 +1,49 @@
+{
+  "name": "alfa-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@arbitrum/sdk": "^3.0.0",
+    "@eth-optimism/sdk": "^1.8.0",
+    "@hop-protocol/sdk": "^0.0.1-beta.411",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "dangerous-html": "0.1.11",
+    "ethers": "^5.7.2",
+    "https-browserify": "^1.0.0",
+    "process": "^0.11.10",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

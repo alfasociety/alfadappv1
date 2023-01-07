@@ -1,0 +1,14 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-button {
+  width: 100%;
+  transition: 0.3s;
+}
+.component-button:hover {
+  color: #ffffff;
+  border-color: #e2e2e2;
+  justify-content: center;
+  background-color: var(--dl-color-template-themepurple);
+}

@@ -1,0 +1,50 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-button {
+  flex: 1;
+  transition: 0.3s;
+}
+.component1-button:hover {
+  color: #ffffff;
+  border-color: #e2e2e2;
+  justify-content: center;
+  background-color: var(--dl-color-template-themepurple);
+}
+.component1-root-class-name {
+  left: 25px;
+  bottom: 33px;
+  position: static;
+}
+.component1-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.component1-button-loader {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+.component1-button-loader:after {
+  content: ' ';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--dl-color-template-themepurple);
+  border-color: var(--dl-color-template-themepurple) transparent
+    var(--dl-color-template-themepurple) transparent;
+  animation: component1-button-loader 1.2s linear infinite;
+}
+@keyframes component1-button-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
